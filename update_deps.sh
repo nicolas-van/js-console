@@ -16,3 +16,8 @@ cp node_modules/jquery/dist/jquery.min.* assets/javascript/bootstrap/
 touch assets/javascript/bootstrap/__DO_NOT_MODIFY
 
 
+rm -rf assets/javascript/libs
+mkdir -p assets/javascript/libs
+cp node_modules/axios/dist/axios.min.* assets/javascript/libs/
+cp node_modules/lodash/lodash.min.* assets/javascript/libs/
+touch assets/javascript/libs/__DO_NOT_MODIFY
